@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppings', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    background: #1d1d1d;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .blossom{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .naruto{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    
+}
+
+button{
+    background: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s, margin-left 0.5s;
+
+}
+
+button span{ 
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;   
+}
+
+.cont{
+     position: absolute;
+     top: -20px;
+     left: 22%;
+     width: 200px;
+
+}
+.giff{
+    position: absolute;
+    border-image: auto;
+    top: 100px;
+    right: 70px;
+    margin: -15%;
+    box-shadow: 5px 5px 5px #1d1d1d;
+    opacity: 0;
+    transition: .5s ease;
+    
+}
+:hover .giff{
+    opacity: 1;
+}
+.sasuke{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 435px;
+    box-shadow: 2px 2px 2px #1d1d1d;
+    margin-top: 100px;
+    opacity: 0;
+    transition: .5s ease;
+    
+
+}
+:hover .sasuke{
+    opacity: 1;
+}
+.naruto{ 
+    display: flex;
+    margin-left: 100px;
+    margin-top: 00px;
+    right: 200px;
+    opacity: 0;
+    
+    
+}
+
+
+.anime-game{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+    
+
+}
+
+.anime-game3{
+    position: absolute;
+    margin-left: -100px;
+    box-shadow: 2px 2px 2px black;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+:hover .anime-game3{
+    opacity: 0;
+}
+
+
+:hover .anime-game{
+    opacity: 1;
+    
+
+}
+
+.wock{
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px 2px black;
+    
+    
+}
+
+:hover .wock{
+    opacity: 1;
+}
+.text-container{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 55%;
+    
+
+}
+
+.text-container h1{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: cursive;
+    margin-left: 500px;
+    left: 100px;
+
+}
+
+.text-container a{
+    text-decoration: none;
+    background: green;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px black
+
+
+}
+
+.text-container p{
+    font-size: 150%;
+    margin-top: 25px;
+    font-family: cursive;
+    font-weight: 200; 
+   
+}
+
+.text-container p2{
+    font-family: cursive;
+    font-size: 30px;
+    opacity: 0;
+    transition: 1.0s ease;
+}
+:hover .text-container p2{
+    opacity: 1;
+   
+}
+
+
+
+.active span{ 
+    background: white;
+    margin-left: 31px;
+
+}
+
+.on{
+    opacity: 1;
+
+}
+
+.tit h1{
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 200%;
+    font-family: cursive;
+    font-weight: 1;
+
+    
+}
+
+.storm a{
+    text-decoration: none;
+    background: darkblue;
+    padding: 20px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 350px;
+    border-radius: 30px;
+
+
+
+}
+:hover .storm a{
+    color: gold;
+}
+
+.hero h1{
+    font-size: 30px;
+    margin-left: 1px;
+}
+
+.title h1{
+    font-size: 100px;
+    background-color: grey;
+    font-family: cursive;
+    margin-top: 0px;
+   
+}
