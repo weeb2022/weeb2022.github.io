@@ -267,3 +267,135 @@ button span{
     margin-top: 0px;
    
 }
+
+/*first section of the website practically completed*/
+/*Download Instructions*/
+
+.download h1{
+    display: flex;
+    background-color: #1d1d1d;
+    font-weight: 100px;
+    font-size: 100px;
+    font-family: cursive;
+    color:  lightblue;
+
+}
+
+.hero2{
+    background: #1d1d1d;
+}
+
+
+.click{
+    position: absolute;
+    margin-left: 100px;
+    box-shadow: 2px 2px 2px black;
+    background: #1d1d1d;
+    
+    
+}
+.download p{
+    display: flex;
+    background-color: #1d1d1d;
+    font-weight: 100;
+    font-size: 70px;
+    margin-left: 900px;
+    font-family: cursive;
+    color: lightblue;
+}
+
+.cautious h1{
+    background-color: #1d1d1d;
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: 100;
+    color: lightblue;
+}
+
+.cautious p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: cursive;
+    background: #1d1d1d;
+    color: white;
+}
+
+.cautious p2{
+    display: flex;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: cursive;
+    background: #1d1d1d;
+    color: white;
+}
+
+.cautious p3{
+    display: flex;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: cursive;
+    background: #1d1d1d;
+    color: white;
+}
+
+.cautiousclick{
+    display: flex;
+    margin-left: 100px;
+    
+
+
+}
+
+.windows h1{
+    display: flex;
+    font-weight: 100;
+    font-family: cursive;
+    color: lightblue;
+}
+.runanyways{
+    display: flex;
+
+}
+
+.windows p{
+    display: flex;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: cursive;
+    color: lightcyan;
+}
+
+.windows p2{ 
+    displat: flex;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: cursive;
+    color: lightcyan;
+}
+
+.malware h1{
+    display: flex;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: cursive;
+    color: lightblue;
+}
+
+.malware p{
+    display: flex;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: cursive;
+    color: lightcoral;
+}
+
+.malware p2{ 
+    display: flex;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: cursive;
+    color: lightblue
+}
+
+ 
